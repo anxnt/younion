@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link';
 
 function Navbar() {
   return (
@@ -27,10 +28,12 @@ function Navbar() {
     </div>
 
     <div className={styles.end}>
-
+     
+     <Link href="/profile">
      <div className={styles.brands}> 
      <p> register as a brand </p>
      </div>
+     </Link>
 
      <div className={styles.creators} >
      <p> join as a creator </p>  
