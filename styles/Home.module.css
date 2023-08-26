@@ -7,6 +7,16 @@
   position: absolute;
 }
 
+.navbaropen{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: none;  
+  color: white;
+  font-size: 20px;
+}
+
 .logo{
 width: 400px;
 height: 100%;
@@ -133,6 +143,7 @@ font-family: Inter;
 width: 900px;
 margin-top: 150px;
 }
+
 .jaaccontainer{
   border: solid, 1px, linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
@@ -1601,7 +1612,71 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
+  .middle{
+    display: none;
+  }
+  .end{
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .brands{
+   display: none;
+  }
+  .creators{
+    display: none;
+   }
 
+  .navbaropen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .younion{
+    font-size: 50px;
+  }
+
+  .toph{
+    font-size: 40px;
+  }
+
+  .bottomh{
+    font-size: 18px;
+    margin-top: 170px;
+  }
+
+  .jaacandswitchc{
+   height: 250px !important;
+   margin-top: 400px !important;
+  }
+
+  .jaacandswitch{
+    flex-direction: column !important;
+  }
+
+  .jaaccontainer{
+    width: 180px !important;
+    height: 75px !important;
+  }
+
+  .jaac{
+    font-size: 18px;
+  }
+
+  .switchandjaacc{
+    width: 350px !important;
+    height: 75px !important;
+  }
+
+  .switch{
+    height: 75px;
+    width: 160px;
+  }
+
+  .slider{
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media screen and (max-width: 350px) {

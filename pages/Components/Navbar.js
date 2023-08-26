@@ -38,6 +38,10 @@ function Navbar() {
      <div className={styles.creators} >
      <p> join as a creator </p>  
      </div>
+
+     <div className={styles.navbaropen}>
+     <i class="ri-menu-line"></i>
+     </div>
        
     </div>
 
