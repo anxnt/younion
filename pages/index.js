@@ -33,11 +33,6 @@ export default function Home() {
         <Navbar/>
         <Topbody/>
         </div>
-
-        <div style={{backgroundColor:"#F3F3F3", width:"100vw", height:"100vh"}}>
-
-        </div>
-       
       </main>
     </>
   )
