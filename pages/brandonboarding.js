@@ -21,7 +21,8 @@ function brandonboarding() {
     <div style={{backgroundColor:"", width:"45vw", height:"80vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
 
         <div className={styles.onboardingcard}>
-
+         
+         <header> Log in as a brand</header>
 
         </div>
     </div>
