@@ -1677,6 +1677,11 @@ cursor: pointer;
     height: 50px;
     width: 50px;
   }
+
+  .switchOn .slider {
+    transform: translateX(80px);
+  }
+  
 }
 
 @media screen and (max-width: 350px) {
