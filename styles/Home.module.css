@@ -1660,11 +1660,12 @@ cursor: pointer;
   }
 
   .jaac{
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
   }
 
   .switchandjaacc{
-    width: 350px !important;
+    width: 300px !important;
     height: 75px !important;
   }
 
