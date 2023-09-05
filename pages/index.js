@@ -23,7 +23,7 @@ export default function Home() {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
-        height: '750px',
+        height: '100vh',
         width: '100vw ',
         position:"",
         display:"flex",
