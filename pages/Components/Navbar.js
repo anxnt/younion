@@ -1,8 +1,18 @@
 import React from 'react'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
+import { useState } from 'react';
 
 function Navbar() {
+
+  
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+
   return (
     <div className={styles.navbar}>
          
@@ -24,7 +34,6 @@ function Navbar() {
     
     </div>
     
-    
     </div>
 
     <div className={styles.end}>
@@ -39,9 +48,13 @@ function Navbar() {
      <p> join as a creator </p>  
      </div>
 
-     <div className={styles.navbaropen}>
-     <i class="ri-menu-line"></i>
+     <div className={styles.navbaropen} onClick={toggleMenu} >
+     {menuOpen ? <i class="ri-close-line"></i> : <i className="ri-menu-line"></i>}
      </div>
+     {menuOpen && (
+        <div className={styles.overlay}>
+
+        </div>)}
        
     </div>
 
