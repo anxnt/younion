@@ -1516,6 +1516,16 @@ cursor: pointer;
   margin-bottom: 10px;
 }
 
+.overlay{
+  height: 200vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.30);
+backdrop-filter: blur(35.5px);
+  position: absolute;
+  display: flex;
+  left:0;
+  z-index: 2;
+}
 
 @media screen and (max-width: 1350px) {
 
@@ -1630,6 +1640,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
   }
 
   .younion{
