@@ -53,6 +53,35 @@ function Navbar() {
      </div>
      {menuOpen && (
         <div className={styles.overlay}>
+        
+        <div className={styles.overlay1}>
+
+
+        <Link href="/profile">
+          <div className={styles.overlaydiv1}>
+           Register as a Brand
+           </div> 
+        </Link>
+
+           <div className={styles.overlaydiv1}>
+           Join as a Creator
+           </div> 
+
+           <div className={styles.overlaydiv2}>
+            Find Brands
+            </div>
+
+            <div className={styles.overlaydiv3}>
+            Explore Creators
+            </div>
+
+            <div className={styles.overlaydiv3}>
+            How it works?
+            </div>
+
+        
+
+        </div>
 
         </div>)}
        
